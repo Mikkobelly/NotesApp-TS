@@ -1,0 +1,27 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+div#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.note-card {
+  margin-top: 1.5rem;
+  transition: all .2s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-5px);
+}
+
+.note-card:active {
+  transform: translateY(-3px);
+}
